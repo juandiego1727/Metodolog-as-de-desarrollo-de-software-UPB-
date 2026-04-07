@@ -5,4 +5,4 @@ AeroDev Team 🚀
 
 ## Integrantes:
 - Juan Diego Arévalo Quintero
-- ()
+- (David Felipe Astudillo Gutierrez)
