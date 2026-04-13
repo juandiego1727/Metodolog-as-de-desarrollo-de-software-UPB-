@@ -9,3 +9,6 @@ git commit -m "Agrego archivo DavidAstudillo.md"
 
 ## 3. Subir mi rama local al repositorio remoto
 git push -u origin davidastudillo
+
+> Nota: Comandos verificados en entorno local.
+
