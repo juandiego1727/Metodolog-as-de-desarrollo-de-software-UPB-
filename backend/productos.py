@@ -21,6 +21,8 @@ def buscar_producto(productos, id_buscar):
         if p["id"] == id_buscar:
             return p
     return None
+
+
 def crear_producto(ruta, id_producto, nombre, precio, cantidad):
     productos = leer_productos(ruta)
 
@@ -36,7 +38,9 @@ def crear_producto(ruta, id_producto, nombre, precio, cantidad):
     archivo.save(ruta)
 
     return True
-    def actualizar_producto(ruta, id_producto, nombre, precio, cantidad):
+
+
+def actualizar_producto(ruta, id_producto, nombre, precio, cantidad):
     archivo = openpyxl.load_workbook(ruta)
     hoja = archivo.active
 
@@ -53,7 +57,9 @@ def crear_producto(ruta, id_producto, nombre, precio, cantidad):
     archivo.save(ruta)
 
     return encontrado
-    def eliminar_producto(ruta, id_producto):
+
+
+def eliminar_producto(ruta, id_producto):
     archivo = openpyxl.load_workbook(ruta)
     hoja = archivo.active
 
